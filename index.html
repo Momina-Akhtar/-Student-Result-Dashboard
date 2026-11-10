@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result Dashboard</title>
+    <link rel="stylesheet"
+    href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+        <div class="brand-icon">🎓</div>
+    <div class="brand-divider"></div>
+    <div>
+        <h1>Student Result Dashboard</h1>
+        <p class="subtitle">Student Performance Report</p>
+    </div>
+    </div>
+    <a class="github-button"
+    href="https://github.com/"
+    target="_blank">
+     • View on Github ↗
+</a>
+  </header>
+  <section class="stats-grid">
+    <article class="stats-grid">
+        <div class="stats-grid">👥</div>
+        <div>
+            <strong id="totalStudents">0</strong>
+            <p>Total Student</p>
+        </div>
+    </article>
+    <article class="stat-card">
+        <div class="stat-icon">📈</div>
+        <div>
+            <strong id="overallAverage">0%</strong>
+            <p>Overall Average</p>
+        </div>
+    </article>
+    <article class="stat-card">
+        <div class="stat-icon">⭐</div>
+        <div>
+            <strong id="overallGrade">-</strong>
+            <p>Overall Grade</p>
+        </div>
+    </article>
+    <article class="stat-card">
+        <div class="stat-icon
+        success-icon">✓</div>
+        <div>
+            <strong id="passedCount">0 / 0</strong>
+            <p>Passed</p>
+        </div>
+    </article>
+  </section>
+<section class="topper-card">
+    <div  class="trophy-area">
+        <div class="trophy">🏆</div>
+        <div class="stars">★ ★ ★</div>
+    </div>
+    <div class="topper-divider"></div>
+    <div class="topper-info">
+        <span class="topper-label">
+            👑 Class Topper
+        </span>
+        <h2 id="topperName">Student</h2>
+        <p>
+            Average:
+            <strong id="topperAverage">0%</strong>
+            <span class="separator">|</span>
+            Grade:
+            <strong id="topperGrade">-</strong>
+        </p>
+    </div>
+    <div class="well-done">
+        Well Done!
+        <span>♡</span>
+    </div>
+</section>
+<section class="results-section">
+    <div class="section-bar">
+        <h2>👥 All Students Results</h2>
+        <label class="sort-control">
+            sort by:
+            <select id="sortSelect">
+                <option value="high">
+                    Average:
+                    highest First
+                </option>
+<option value="low">
+    Average: Lowest First
+</option>
+<option value="name">
+    Name: A to Z
+</option>
+            </select>
+        </label>
+    </div>
+    <div id="studentsList"
+    class="students-grid">
+</div>
+</section>
+<section class="bottom-grid">
+    <article class="info-card">
+        <div class="bottom-icon">ⓘ</div> 
+        <div>
+            <h2>About this Report</h2>
+            <p>
+                This Dashboard presents the class Performance,
+                student Average, grades and pass status.
+            </p>
+        </div>
+    </article>
+    <article class="info-card">
+        <div class="bottom-icon">✉</div>
+        <div>
+            <h2>Contact</h2>
+            <p>
+                For result-related queries, 
+                contact the class teacher.
+            </p>
+        </div>
+    </article>
+</section>
+<footer>
+    <span></span>
+    🎓
+    <em>Student Success is Our Priority</em>
+    <span></span>
+</footer>
+<main class="dashboard">
+    <!-- Step 3: Header -->
+     <!-- Step 4: Summary Cards -->
+      <!-- Step 5: Class Topper -->
+       <!-- Step 6: Student Results -->
+        <!-- Step 7: About and Contact -->
+         <!-- Step 8: Footer -->
+</main>
+<script src="script.js">
+</script>
+</body>
+</html>
